@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    text-align: start;
+    margin-top: 50px;
+    background-color:#2b2d42;
+    padding: 20px;
+    border-radius: 20px;
+    width: 30%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    label{
+        width: 100%;
+        padding: 10px 20px 10px 0;
+        color: #edf2f4 ;
+    }
+    input{
+        width: 100%;
+        padding: 10px 20px 10px 10px;
+        border: none;
+        outline: none;
+        background-color: #8d99ae;
+        border-radius: 20px;
+    }
+    select{
+        padding: 10px 20px 10px 20px;
+        border: none;
+        color: #fff;
+        outline: none;
+        background-color: #8d99ae;
+        border-radius: 20px;
+    }
+    button{
+        width: 100%;
+        margin: 10px 0 0 0;
+        border: none;
+        outline: none;
+        background-color: #ef233c;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 20px; 
+        cursor: pointer;
+        &:disabled{
+            background-color: #722b33;
+            cursor: no-drop;
+        }
+    }
+}

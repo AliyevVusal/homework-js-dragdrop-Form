@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="forms" onkeyup="ControlForm('forms')">
+
+        <label for="">UserName</label>
+        <input type="text" minlength="6" required>
+        
+
+        <label for="">Email</label>
+        <input type="email" required>
+
+        <label for="">Password</label>
+        <input id="password" type="password" minlength="6" required>
+
+        <label for="">Password Check</label>
+        <input id="passwordcdin" type="password" minlength="6" required>
+
+        <label for="">Age</label>
+        <select  name="" id="selectage" required>
+            <option value="0">10-17</option>
+            <option value="1">18-25</option>
+            <option value="1">25-45</option>
+            <option value="1">45-64</option>
+            <option value="1">64+</option>
+        </select>
+        <span id="agesp"></span>
+
+
+        <button type="submit" disabled>SUBMIT</button>
+
+    </form>
+    
+</body>
+<script src="./js/main.js"></script>
+</html>
